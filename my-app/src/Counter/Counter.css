@@ -1,0 +1,122 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html,body 
+{
+ width:100%;
+ height:100%;   
+}
+#upper-Container 
+{   background-color: antiquewhite;
+    
+
+   
+    width:100%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+span
+{
+    color: #397a4a;
+    box-sizing: border-box;
+    font-size: larger;
+}
+#Info-container
+{  
+    width:90%;
+    height:100%;
+    font-size: 30px;
+    font-weight: 400;
+    color:black;
+    padding: 2em 0 0 5rem;
+    position: block;
+}
+#Info-container img{
+    width: 40vw;
+}
+#Count-container {
+    width: 90%;
+    height: 50%;
+    display: block;
+    padding: 2rem 0 0 5rem;
+    position: relative;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5; /* Adjust this value for the desired line spacing */
+    border-spacing: 10px;
+}
+#Count-container hr{
+    border:0.5px solid black;
+    width:70%;
+    margin:20px 0;
+}
+ 
+#Counter
+{
+    color: #397a4a;
+    font-size: larger;
+}
+
+#second-heading
+{   font-size: 3rem;
+    line-height: 3rem;
+}
+#Bottom-container 
+{   
+    background-color: antiquewhite;
+    width:100%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#para
+{   width:50%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* padding: 10%; */
+}
+#para p{
+    font-size: 25px;
+    padding: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+}
+#para button
+{
+    height: 56px;
+    min-width: 160px;
+    border-width: 1px;
+    padding: 15px 36px;
+    font-size: 20px;
+    line-height: 26px;
+    border-radius: 7.25rem;
+    background-color:#397a4a;
+    color: white;
+}
+#collage img
+{
+    width: 35vw;
+}
