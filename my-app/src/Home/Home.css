@@ -1,0 +1,64 @@
+.home-main {
+    width: 100vw;
+    height: 55vw;
+    background-image: url("../images/home-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-title {
+    font-size: 4vw;
+    font-weight: 400;
+    color: #FEFAE0;
+    margin-left: 6vw;
+    padding-top: 6vw;
+}
+
+.home-main h2 {
+    font-size: 1.7vw;
+    font-weight: 400;
+    color: #FEFAE0;
+    margin: 1vw 0 0 6.5vw;
+}
+
+.home-second {
+    display: flex;
+    width: 85vw;
+    justify-content: space-between;
+    margin: 5vw 0 0 7vw;
+}
+
+.home-card {
+    color: black;
+}
+.home-card h2 {
+    color: black;
+    font-weight: 500;
+    font-size: 1.4vw;
+    margin: 1vw 0 0 2vw;
+}
+.home-card p {
+    margin: 0 0 0 2.3vw;
+    font-weight: 500;
+    font-size: .8vw;
+}
+
+.individual {
+    width: 25vw;
+    height: 20.5vw;
+    background-image: url("../images/individual.png");
+    background-size: cover;
+}
+.couple {
+    width: 25vw;
+    height: 23.3vw;
+    background-image: url("../images/couple.png");
+    background-size: cover;
+}
+.teen {
+    width: 25vw;
+    height: 18.1vw;
+    background-image: url("../images/teen.png");
+    background-size: cover;
+}

@@ -1,11 +1,14 @@
 import './App.css';
-import Home from './Home/Home.js';
-import Counter from './Counter/Counter.js';
+import Home from './Home/Home.jsx';
+import Nav from './Nav/Nav.jsx';
+import Counter from './Counter/Counter.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <div className="nav"><Nav /></div>
+      
+      <Home />
     </div>
   );
 }
