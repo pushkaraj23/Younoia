@@ -31,6 +31,12 @@
 
 .home-card {
     color: black;
+    border-radius: 2vw;
+    transition: all .3s;
+}
+.home-card:hover {
+    box-shadow: 1.5vw 1.5vw #1d2c25;
+    transform: translate(-.75vw ,-.75vw);
 }
 .home-card h2 {
     color: black;
