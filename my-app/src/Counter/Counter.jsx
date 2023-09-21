@@ -1,6 +1,8 @@
 import React from "react";
 import "./Counter.css";
-import logo from "../images/logo.jpg";
+import collage from "../images/Collage.png"
+
+
 
 export default function Counter() {
   return (
@@ -8,14 +10,13 @@ export default function Counter() {
       <div id="upper-Container">
         <div id="Info-container">
           <h2>The world's largest therapy service.</h2>
-
           <span>100% online!</span>
-          <img
+          {/* <img
             src="https://imgs.search.brave.com/5TwdqdCn1q0LxTCaqpAWgxObhCo7gRHgJarg1U-eboc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9z/dHVkaW8tcG9ydHJh/aXQtY29sbGFnZS1k/aXZlcnNlLXBlb3Bs/ZV81Mzg3Ni0xMzc2/MjkuanBnP3NpemU9/NjI2JmV4dD1qcGc"
             alt=""
-          />
+          /> */}
         </div>
-
+        
         <div id="Count-container">
           <div id="wrapper-1">
             <div id="Counter">350,467</div>
@@ -55,7 +56,7 @@ export default function Counter() {
         </div>
 
         <div id="collage">
-          <img src={logo} alt="img" />
+          {/* <img src={collage} alt="" /> */}
           <br />
         </div>
       </div>

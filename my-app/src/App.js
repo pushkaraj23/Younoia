@@ -9,6 +9,7 @@ function App() {
       <div className="nav"><Nav /></div>
       
       <Home />
+      <Counter/>
     </div>
   );
 }

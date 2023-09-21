@@ -12,12 +12,9 @@ html,body
  height:100%;   
 }
 #upper-Container 
-{   background-color: antiquewhite;
-    
-
-   
-    width:100%;
-    height:100%;
+{   background-color: #FEFAE0;
+    width:100vw;
+    height:50vw;
     margin-left: auto;
     margin-right: auto;
     padding-left: 100px;
@@ -36,7 +33,7 @@ span
 #Info-container
 {  
     width:90%;
-    height:100%;
+    /* height:100%; */
     font-size: 30px;
     font-weight: 400;
     color:black;
@@ -75,7 +72,7 @@ span
 }
 #Bottom-container 
 {   
-    background-color: antiquewhite;
+    background-color: #FEFAE0;
     width:100%;
     height:100%;
     margin-left: auto;
@@ -83,7 +80,8 @@ span
     padding-left: 100px;
     padding-right: 15px;
     display: flex;
-    justify-content: center;
+    
+    justify-content: space-evenly;
     align-items: center;
 
 }
@@ -119,4 +117,8 @@ span
 #collage img
 {
     width: 35vw;
+}
+#para button:hover
+{
+  cursor: pointer;
 }
