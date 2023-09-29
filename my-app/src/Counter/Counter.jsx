@@ -1,45 +1,40 @@
 import React from "react";
 import "./Counter.css";
-import collage from "../images/Collage.png"
-
-
+import collage from "../images/Collage.png";
 
 export default function Counter() {
   return (
     <div className="main">
-      <div id="upper-Container">
-        <div id="Info-container">
+      <div className="counter-first">
+        <div className="Info-container">
           <h2>The world's largest therapy service.</h2>
           <span>100% online!</span>
-          {/* <img
-            src="https://imgs.search.brave.com/5TwdqdCn1q0LxTCaqpAWgxObhCo7gRHgJarg1U-eboc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9z/dHVkaW8tcG9ydHJh/aXQtY29sbGFnZS1k/aXZlcnNlLXBlb3Bs/ZV81Mzg3Ni0xMzc2/MjkuanBnP3NpemU9/NjI2JmV4dD1qcGc"
-            alt=""
-          /> */}
         </div>
-        
-        <div id="Count-container">
-          <div id="wrapper-1">
-            <div id="Counter">350,467</div>
-            <div id="Info-1">Message, chat,phone,video sessions</div>
+
+        <div className="Count-container">
+          <div>
+            <div>350,467</div>
+            <div>Message, chat,phone,video sessions</div>
           </div>
           <hr />
-          <div id="wrapper-2">
-            <div id="Counter">298,111</div>
-            <div id="Info-2">Credentialled therapists ready to help</div>
+          <div>
+            <div>298,111</div>
+            <div>Credentialled therapists ready to help</div>
           </div>
           <hr />
-          <div id="wrapper-3">
-            <div id="Counter">1205</div>
-            <div id="Info-3">People got help!</div>
+          <div>
+            <div>1205</div>
+            <div>People got help!</div>
           </div>
         </div>
 
         <hr id="seperate" />
       </div>
-      <div id="Bottom-container">
-        <div id="para">
-          <h2 id="second-heading">
-            Professional and credentialled therapists who you can{" "}
+
+      <div className="counter-second">
+        <div className="counter-second-para">
+          <h2>
+            Professional and credentialled therapists who you can {" "}
             <span>trust.</span>
           </h2>
           <br />
@@ -55,8 +50,8 @@ export default function Counter() {
           <button>Get Matched!</button>
         </div>
 
-        <div id="collage">
-          {/* <img src={collage} alt="" /> */}
+        <div className="collage">
+          <img src={collage} alt="" />
           <br />
         </div>
       </div>

@@ -62,3 +62,7 @@
 .nav-second li ul:hover {
     cursor: pointer;
 }
+
+.text {
+    background-color: black;
+}
