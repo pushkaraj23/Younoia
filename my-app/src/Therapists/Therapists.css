@@ -1,0 +1,37 @@
+.therapists-main {
+    background-image: url("../images/therapists-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6vw;
+    padding: 1vw 0 0 0;
+}
+
+.therapists-img {
+    height: 53vw;
+    width: auto;
+    margin-left: 2vw;
+}
+
+.therapists-info {
+    width: 37vw;
+    font-family: 'Poppins', sans-serif;
+    margin: 3vw 0 0 2vw;
+}
+.therapists-info h2 {
+    font-size: 3.3vw;
+    font-weight: 400;
+    color: #C7925F;
+    line-height: 4.3vw;
+}
+.therapists-info p {
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: #343434;
+    margin-top: 2.5vw;
+    width: 30vw;
+}

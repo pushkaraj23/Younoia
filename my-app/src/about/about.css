@@ -1,0 +1,30 @@
+.about-main {
+    background-image: url("../images/about-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 59.5vw;
+    transform: translateY(-4vw);
+}
+
+.about-first {
+    padding-top: 9vw;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vw;
+}
+.about-first h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    color: #FAEDCD;
+    font-weight: 400;
+}
+.about-first hr {
+    width: 23vw;
+    margin: 0 1.5vw;
+    border: 1px solid #FAEDCD;
+}
+hr:nth-of-type(2n) {
+    width: 50vw;
+}
