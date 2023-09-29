@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+.featurecomp-main {
+  width:100vw;
+  margin-right: 30vw;
+  margin-top: 5vw;
+  font-family: "Poppins", sans-serif;
+}
+.Table-text {
+  margin-left: 5vw;
+  font-size: 3vw;
+  text-align: center;
+  vertical-align: middle;
+}
+.featurecomp-table
+{
+   width:100vw;
+  margin-right: 30vw;
+  padding :3vw;
+}
+.table-heading
+{ 
+  text-align: center;
+  padding-bottom: 2vw;
+  padding-right: 3vw;
+  font-size: 2vw;
+}
+.table-heading span
+{
+  text-align: center;
+  width:100%;
+  margin-left:2.3vw;
+}
+
+
+.table-cell
+{ width:50vw;
+  padding-left:10vw;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+  font-size:1.3vw;
+  font-weight: 200;
+  margin: auto;
+}
+.tabel-cell2
+{
+  background-color: #C7925F80;
+  text-align: center;
+  
+}
+.tabel-cell3
+{
+  text-align: center;
+}
+hr
+{
+border: 0.5px solid #C7925F80;
+width: 50vw;
+
+}
+.Images
+{
+  width: 2.5vw;
+}
