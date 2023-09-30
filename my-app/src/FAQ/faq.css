@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+.faq-Main {
+  width: 100vw;
+}
+.faq-One {
+  width: 100vw;
+  /* text-align: center; */
+}
+.faq-One h2 {
+  text-align: center;
+  margin-top: 2vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 4vw;
+}
+span {
+  color: #4f814f;
+}
+.faq-questions {
+  width: 100vw;
+  text-align: center;
+  padding: 3vw;
+}
+.Questions {
+  background-color: #c7925f80;
+  padding: 2vw;
+  cursor: pointer;
+}
+hr {
+  border: 10px solid  #FEFAE0;
+  width: 100vw;
+}
