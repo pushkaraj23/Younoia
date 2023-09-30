@@ -25,6 +25,6 @@
     margin: 0 1.5vw;
     border: 1px solid #FAEDCD;
 }
-hr:nth-of-type(2n) {
+.about-first hr:nth-of-type(2n) {
     width: 50vw;
 }

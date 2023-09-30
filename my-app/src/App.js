@@ -2,6 +2,9 @@ import './App.css';
 import Home from './Home/Home.jsx';
 import Nav from './Nav/Nav.jsx';
 import Counter from './Counter/Counter.jsx';
+import Therapists from './Therapists/Therapists.jsx';
+import About from './about/About.jsx';
+import FeatureComp from './FeatureComp/featurecomp.jsx';
 
 function App() {
   return (
@@ -10,6 +13,10 @@ function App() {
       
       <Home />
       <Counter/>
+      <Therapists />
+      <About />
+      <FeatureComp />
+
     </div>
   );
 }
