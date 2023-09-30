@@ -1,0 +1,39 @@
+.info-main {
+    min-width: 72vw;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.info-first {
+    width: 35vw;
+}
+
+.info-first h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    line-height: 3.6vw;
+    color: #FAEDCD;
+}
+.info-first p {
+    margin-top: .7vw;
+    font-size: 1.4vw;
+    font-weight: 300;
+    width: 24vw;
+    color: #A3B18A;
+    line-height: 2vw;
+}
+
+.info-images img {
+    height: 17vw;
+}
+#img1 {
+    transform: translate(3vw, -5vw);
+    rotate: -15deg;
+}
+#img2 {
+    rotate: 20deg;
+    transform: translate(-3vw, 5vw);
+}
