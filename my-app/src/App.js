@@ -5,6 +5,7 @@ import Counter from './Counter/Counter.jsx';
 import Therapists from './Therapists/Therapists.jsx';
 import About from './about/About.jsx';
 import FeatureComp from './FeatureComp/featurecomp.jsx';
+import FAQ from './FAQ/faq.jsx'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Therapists />
       <About />
       <FeatureComp />
+      <FAQ/>
 
     </div>
   );

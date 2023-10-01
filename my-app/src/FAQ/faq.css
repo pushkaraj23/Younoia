@@ -9,14 +9,28 @@ body {
 }
 .faq-Main {
   width: 100vw;
+  height: 60vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .faq-One {
   width: 100vw;
   /* text-align: center; */
 }
+.faq-two
+{  
+  width: 100vw;
+  height: 100vw;
+  text-align: center;
+  margin: 2vw;
+  font-size: 2vw;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
 .faq-One h2 {
   text-align: center;
-  margin-top: 2vw;
+  margin-top: 3vw;
   font-family: "Poppins", sans-serif;
   font-size: 4vw;
 }
@@ -24,16 +38,32 @@ span {
   color: #4f814f;
 }
 .faq-questions {
-  width: 100vw;
-  text-align: center;
+  width: 80vw;
+  text-align: left;
   padding: 3vw;
+  margin-left: 10vw;
 }
 .Questions {
-  background-color: #c7925f80;
+  background-color:#D4A373;
+  color:#FFFFFF;
+  font-family: "Poppins", sans-serif;
   padding: 2vw;
-  cursor: pointer;
+  border-radius: 0 3vw 0 3vw;
+  font-size: 1.5vw;
 }
+.faq-link
+{
+  color: #397a4a;
+  margin-bottom: 10vw;
+  text-decoration: underline;
+}
+
 hr {
-  border: 10px solid  #FEFAE0;
+  border: 10px solid #fefae0;
   width: 100vw;
+}
+.Images2
+{ 
+  float:right; 
+  cursor: pointer;
 }
