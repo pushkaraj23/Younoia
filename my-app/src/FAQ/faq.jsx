@@ -41,9 +41,7 @@ export default function faq() {
           </div>
         </div>
         <div className="faq-two">
-          <a className="faq-link" href="/faq/">
-            More frequently asked questions
-          </a>
+          <h3 className="faq-text">You deserve to be happy!</h3> 
           <br />
         </div>
       </div>

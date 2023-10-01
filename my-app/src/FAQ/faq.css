@@ -8,6 +8,7 @@ body {
   width: 100vw;
 }
 .faq-Main {
+  margin-top:5vw;
   width: 100vw;
   height: 60vw;
   display: flex;
@@ -51,11 +52,11 @@ span {
   border-radius: 0 3vw 0 3vw;
   font-size: 1.5vw;
 }
-.faq-link
+.faq-text
 {
   color: #397a4a;
-  margin-bottom: 10vw;
-  text-decoration: underline;
+  margin-bottom: 3vw;
+  font-size: 3vw;
 }
 
 hr {
