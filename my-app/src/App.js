@@ -6,6 +6,7 @@ import Therapists from './Therapists/Therapists.jsx';
 import About from './about/About.jsx';
 import FeatureComp from './FeatureComp/featurecomp.jsx';
 import FAQ from './FAQ/faq.jsx'
+import Review from './Review/Review.jsx';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Therapists />
       <About />
       <FeatureComp />
+      <Review />
       <FAQ/>
 
     </div>
